@@ -104,7 +104,7 @@ var journeyPlanner = function(startStation, endStation, linesObject) {
     var temp                    = linesObject[lineName].slice();
     returnObj.toDestinationLine = lineName;
 
-    if (richmond > returnLine) {
+    if (indexOfRichmond > returnLine) {
       temp = temp.splice(returnLine, indexOfRichmond + 1);
       return temp.reverse();
     } else {
