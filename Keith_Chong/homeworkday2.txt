@@ -1,0 +1,27 @@
+// Your Top Choices
+var topFav= {
+  'president' : "Obama",
+  'color' : ['pink','black','white'],
+  'food' : "cupcakes"
+  }
+var speech = "My favorite American President is " + topFav['president'] + "I love eating " + topFav['food'] +". My first favorite color is " + topFav['color'][0] + " followed by " + topFav['color'][1] + "and lastly, " + topFav['color'][2] + "." ;
+console.log(speech);
+
+//The Even/Odd Reporter
+
+for (var num = 1; num < 21 ; num++ ){
+if (num % 2 === 0) { console.log(num + " is an even number");
+    } else console.log (num + " is an odd number");
+}
+
+//Multiplication Table
+for (var i = 0 ; i < 11 ; i++){
+    console.log(9 * i);
+}
+
+//The Vegan Test
+var userChoice = prompt("Please choose between steak, fruitsalad, tofurkey, porkchops!")
+if (userChoice === 'steak'||'porkchops') {
+    console.log("Vegan's Beware!");
+} else console.log("This cuisine is vegan friendly.!");
+
